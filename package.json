@@ -1,0 +1,38 @@
+{
+  "author": "vtamara",
+  "bugs": {
+    "url": "https://github.com/celo-org/celo-composer/issues"
+  },
+  "description": "Custom Celo Composer project.",
+  "homepage": "https://github.com/celo-org/celo-composer/blob/main/README.md",
+  "keywords": [
+    "celo-composer",
+    "celo"
+  ],
+  "license": "MIT",
+  "name": "cwcc-notemplate",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celo-org/celo-composer.git"
+  },
+  "scripts": {
+    "react-app:dev": "yarn workspace @cwcc-notemplate/react-app dev",
+    "react-app:build": "yarn workspace @cwcc-notemplate/react-app build",
+    "react-app:start": "yarn workspace @cwcc-notemplate/react-app start",
+    "react-app:lint": "yarn workspace @cwcc-notemplate/react-app lint",
+    "hardhat:postinstall": "yarn workspace @cwcc-notemplate/hardhat postinstall",
+    "hardhat:compile": "yarn workspace @cwcc-notemplate/hardhat compile",
+    "hardhat:tsc": "yarn workspace @cwcc-notemplate/hardhat tsc",
+    "hardhat:build": "yarn workspace @cwcc-notemplate/hardhat build",
+    "hardhat:clean": "yarn workspace @cwcc-notemplate/hardhat clean",
+    "hardhat:run:node": "yarn workspace @cwcc-notemplate/hardhat run:node",
+    "hardhat:test": "yarn workspace @cwcc-notemplate/hardhat test",
+    "hardhat:prettier": "yarn workspace @cwcc-notemplate/hardhat prettier",
+    "hardhat:sync:abis": "yarn workspace @cwcc-notemplate/hardhat sync:abis"
+  },
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ]
+}
